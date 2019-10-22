@@ -8,17 +8,18 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AnimableRefresh'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A customizable refresh control for `ScrollView`'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A customizable refresh control for `ScrollView`...
                        DESC
 
-  s.homepage         = 'https://github.com/thibaut.richez@benextcompany.com/AnimableRefresh'
+  s.homepage         = 'https://github.com/ThibautRichez/AnimableRefresh'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Thibaut Richez' => 'thibaut.richez@benextcompany.com' }
-  s.source           = { :git => 'https://github.com/thibaut.richez@benextcompany.com/AnimableRefresh.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ThibautRichez/AnimableRefresh.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.0'
   s.source_files = 'AnimableRefresh/Classes/**/*'
   s.frameworks = 'UIKit'
+  s.swift_version = '5.0'
 end
