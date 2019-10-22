@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnimableRefresh_Example' do
+  pod 'AnimableRefresh', :path => '../'
+
+  target 'AnimableRefresh_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
