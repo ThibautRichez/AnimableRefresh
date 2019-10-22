@@ -1,4 +1,7 @@
 use_frameworks!
+platform :ios, '11.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'AnimableRefresh_Example' do
   pod 'AnimableRefresh', :path => '../'

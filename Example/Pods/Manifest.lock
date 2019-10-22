@@ -1,0 +1,16 @@
+PODS:
+  - AnimableRefresh (0.1.0)
+
+DEPENDENCIES:
+  - AnimableRefresh (from `../`)
+
+EXTERNAL SOURCES:
+  AnimableRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimableRefresh: def32caa98e577b4b4441d7cfb360123df2d72a3
+
+PODFILE CHECKSUM: aa92b8777b596f6221374ac21d0ebb7c1e3efd4f
+
+COCOAPODS: 1.8.3

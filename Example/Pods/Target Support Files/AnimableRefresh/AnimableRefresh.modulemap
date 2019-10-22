@@ -1,0 +1,6 @@
+framework module AnimableRefresh {
+  umbrella header "AnimableRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

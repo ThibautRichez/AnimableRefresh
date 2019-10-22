@@ -1,0 +1,23 @@
+{
+  "name": "AnimableRefresh",
+  "version": "0.1.0",
+  "summary": "A short description of AnimableRefresh.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/thibaut.richez@benextcompany.com/AnimableRefresh",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Thibaut Richez": "thibaut.richez@benextcompany.com"
+  },
+  "source": {
+    "git": "https://github.com/thibaut.richez@benextcompany.com/AnimableRefresh.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "AnimableRefresh/Classes/**/*",
+  "frameworks": "UIKit"
+}
