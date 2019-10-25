@@ -39,17 +39,24 @@ public final class SystemLoaderView: UIView {
     private func configure() {
         addSubview(indicatorView)
         NSLayoutConstraint.activate([
-            NSLayoutConstraint(item: indicatorView, attribute: .centerX, relatedBy: .equal, toItem: self, attribute: .centerX, multiplier: 1, constant: 0),
-            NSLayoutConstraint(item: indicatorView, attribute: .centerY, relatedBy: .equal, toItem: self, attribute: .centerY, multiplier: 1, constant: 0)
+            NSLayoutConstraint(item: indicatorView, attribute: .centerX, relatedBy: .equal,
+                               toItem: self, attribute: .centerX, multiplier: 1, constant: 0),
+            NSLayoutConstraint(item: indicatorView, attribute: .centerY, relatedBy: .equal,
+                               toItem: self, attribute: .centerY, multiplier: 1, constant: 0)
         ])
     }
 }
 
 // MARK: - AnimableView
 
-extension SystemLoaderView: AnimableView {
+extension SystemLoaderView: RefreshAnimableView {
     public func animate() {
         indicatorView.startAnimating()
+    }
+
+    public func animatePullingPosition(_ position: CGFloat) {
+        guard !indicatorView.isAnimating else { return }
+        self.animate()
     }
 
     public func stopAnimating() {

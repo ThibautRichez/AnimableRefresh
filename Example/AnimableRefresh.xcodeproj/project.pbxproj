@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = EJJTJ7QSUQ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = EJJTJ7QSUQ;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -484,6 +486,7 @@
 			baseConfigurationReference = 6EFB7F25E957FAE070B5B99C /* Pods-AnimableRefresh_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EJJTJ7QSUQ;
 				INFOPLIST_FILE = AnimableRefresh/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -501,6 +504,7 @@
 			baseConfigurationReference = D6D14B19CC235013E55F3A36 /* Pods-AnimableRefresh_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EJJTJ7QSUQ;
 				INFOPLIST_FILE = AnimableRefresh/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -517,6 +521,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D24E7960A89CBAA6E97D4EF /* Pods-AnimableRefresh_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = EJJTJ7QSUQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -539,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 369132EE4D2CC63331709110 /* Pods-AnimableRefresh_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = EJJTJ7QSUQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -1,5 +1,5 @@
 PODS:
-  - AnimableRefresh (0.1.0)
+  - AnimableRefresh (0.1.2)
 
 DEPENDENCIES:
   - AnimableRefresh (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AnimableRefresh: def32caa98e577b4b4441d7cfb360123df2d72a3
+  AnimableRefresh: 78e524330d58114f98922c1de9c05eb09fc849df
 
 PODFILE CHECKSUM: aa92b8777b596f6221374ac21d0ebb7c1e3efd4f
 

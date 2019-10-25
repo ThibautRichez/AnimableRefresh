@@ -48,8 +48,8 @@ class ViewController: UIViewController {
     }
     
     private func fetch() {
-        let fetchedTime = Int.random(in: 0...5)
-        DispatchQueue.global(qos: .background).asyncAfter(deadline: .now() + .seconds(0)) {
+        let fetchDuration = Int.random(in: 0...5)
+        DispatchQueue.global(qos: .background).asyncAfter(deadline: .now() + .seconds(fetchDuration)) {
             self.didFetch()
         }
     }

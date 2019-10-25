@@ -70,7 +70,7 @@ public final class RefreshView: UIView {
 
     /// The view that will be shown in the center of the `RefreshView`.
     /// It will be animated accordingly to `state` changes.
-    private(set) var animableView: AnimableView
+    private(set) var animableView: RefreshAnimableView
     /// The action that will be triggered on `RefreshView` loading animation
     private(set) var action: (() -> Void)?
 
@@ -84,7 +84,7 @@ public final class RefreshView: UIView {
     ///    - animableView: The view that will be shown in the center of the `RefreshView` and
     ///    animated accordingly to `state` changes.
     ///    - action: The action that will be triggered during the loading animation
-    init(animableView: AnimableView, action: (() -> Void)?) {
+    init(animableView: RefreshAnimableView, action: (() -> Void)?) {
         self.animableView = animableView
         self.action = action
         super.init(frame: .zero)
@@ -207,6 +207,12 @@ public final class RefreshView: UIView {
             // We evaluate how mutch the user pulled down the scroll view
             self.state = .pulling(position: -currentOffset / viewHeight)
         }
+        
+        switch state {
+        case .pulling(let position) where (0...1).contains(position):
+            self.showPullingPosition(position)
+        default: break
+        }
     }
 
     /// Called every time that the `state` changes.
@@ -239,8 +245,7 @@ public final class RefreshView: UIView {
         self.loadingAnimationFinished = false
         scrollView.contentOffset = previousScrollViewOffset
         scrollView.bounces = false
-        self.animableView.isHidden = false
-        animableView.animate()
+        self.showAnimableView()
         UIView.animate(withDuration: 0.3, animations: {
             let insetY = self.frame.height + self.scrollViewDefaultInsets.top
             scrollView.contentInset.top = insetY
@@ -260,13 +265,29 @@ public final class RefreshView: UIView {
     private func animateFinished() {
         guard let scrollView = self.scrollView else { return }
         self.removeScrollViewObserving()
-        self.animableView.stopAnimating()
-        self.animableView.isHidden = true
+        self.hideAnimableView()
         UIView.animate(withDuration: 0.3, animations: {
             scrollView.contentInset = self.scrollViewDefaultInsets
         }) { (_) in
             self.addScrollViewObserving()
             self.state = .inactive
         }
+    }
+    
+    // MARK: - Helper Methods
+    
+    private func showPullingPosition(_ position: CGFloat) {
+        self.animableView.isHidden = false
+        self.animableView.animatePullingPosition(position)
+    }
+    
+    private func showAnimableView() {
+        self.animableView.isHidden = false
+        self.animableView.animate()
+    }
+    
+    private func hideAnimableView() {
+        self.animableView.stopAnimating()
+        self.animableView.isHidden = true
     }
 }

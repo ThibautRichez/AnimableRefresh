@@ -21,7 +21,7 @@ extension UIScrollView {
     ///    - custom: The view that you want to be animated during the `action` process.
     ///    If not provided, a system like view is shown (`SystemLoaderView`)
     ///    - action: The action you want to be triggered on loading process
-    public func addRefresh(custom view: AnimableView = SystemLoaderView(), action: (() -> Void)?) {
+    public func addRefresh(custom view: RefreshAnimableView = SystemLoaderView(), action: (() -> Void)?) {
         let refresherView = RefreshView(animableView: view, action: action)
         refresherView.scrollView = self
         addSubview(refresherView)
