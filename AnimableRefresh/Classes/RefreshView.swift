@@ -219,18 +219,15 @@ public final class RefreshView: UIView {
     /// Determines the animations it should trigger
     private func handleStateChange(from oldState: RefreshState, to newState: RefreshState) {
         switch newState {
+        case .inactive:
+            self.showPullingPosition(0)
         case .loading:
             guard oldState != .loading else { return }
             self.animateLoading()
         case .pulling(position: let value) where value < 0.1:
             self.state = .inactive
         case .finished:
-            if self.isVisible {
-                self.animateFinished()
-            } else {
-                self.scrollView?.contentInset = self.scrollViewDefaultInsets
-                self.state = .inactive
-            }
+            self.animateFinished()
         default: break
         }
     }

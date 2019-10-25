@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2814E28F96198FF8E7B08AE1 /* Pods_AnimableRefresh_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B98D90001EDEA9B7CC03A54 /* Pods_AnimableRefresh_Tests.framework */; };
+		2EA34A6F23633B5900474C31 /* CustomLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA34A6E23633B5900474C31 /* CustomLoader.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EA34A6E23633B5900474C31 /* CustomLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoader.swift; sourceTree = "<group>"; };
 		369132EE4D2CC63331709110 /* Pods-AnimableRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimableRefresh_Tests.release.xcconfig"; path = "Target Support Files/Pods-AnimableRefresh_Tests/Pods-AnimableRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3B98D90001EDEA9B7CC03A54 /* Pods_AnimableRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimableRefresh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D24E7960A89CBAA6E97D4EF /* Pods-AnimableRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimableRefresh_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AnimableRefresh_Tests/Pods-AnimableRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				2EA34A6E23633B5900474C31 /* CustomLoader.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -334,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				2EA34A6F23633B5900474C31 /* CustomLoader.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     // MARK: - Refresh handler
     
     private func configureRefresher() {
-        tableView.addRefresh {
+        tableView.addRefresh(custom: CustomLoader()) {
             self.fetch()
         }
     }
