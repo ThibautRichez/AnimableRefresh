@@ -219,10 +219,9 @@ public final class RefreshView: UIView {
     /// Determines the animations it should trigger
     private func handleStateChange(from oldState: RefreshState, to newState: RefreshState) {
         switch newState {
-        case .inactive:
+        case .inactive where oldState == .finished:
             self.showPullingPosition(0)
-        case .loading:
-            guard oldState != .loading else { return }
+        case .loading where oldState != .loading:
             self.animateLoading()
         case .pulling(position: let value) where value < 0.1:
             self.state = .inactive
@@ -240,13 +239,12 @@ public final class RefreshView: UIView {
     private func animateLoading() {
         guard let scrollView = self.scrollView else { return }
         self.loadingAnimationFinished = false
-        scrollView.contentOffset = previousScrollViewOffset
         scrollView.bounces = false
         self.showAnimableView()
         UIView.animate(withDuration: 0.3, animations: {
             let insetY = self.frame.height + self.scrollViewDefaultInsets.top
             scrollView.contentInset.top = insetY
-            scrollView.contentOffset = CGPoint(x: scrollView.contentOffset.x, y: -insetY)
+            scrollView.contentOffset.y = -insetY
         }) { (_) in
             self.loadingAnimationFinished = true
             scrollView.bounces = true

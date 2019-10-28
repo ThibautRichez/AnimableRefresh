@@ -45,11 +45,11 @@
 		075156FC57EA773E5B9876DDE8A8AEDD /* Pods-AnimableRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimableRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		122DB9C37F33A2F5ADA727AB364979F4 /* Pods-AnimableRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimableRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		12E0364F2619E6D599A06721DE9DCBDE /* Pods-AnimableRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimableRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		133390EF2EF36E2EF16BA43A0DE6A34B /* Pods_AnimableRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnimableRefresh_Tests.framework; path = "Pods-AnimableRefresh_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		133390EF2EF36E2EF16BA43A0DE6A34B /* Pods_AnimableRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimableRefresh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9C9CE70EFEC593249AA39AA47E5BF9 /* Pods-AnimableRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimableRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2F514127B0BC32E64882F3585FE91EE0 /* AnimableRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimableRefresh-prefix.pch"; sourceTree = "<group>"; };
 		304024822E7BC153175483BB44195B6A /* Pods-AnimableRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimableRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
-		30D902747501B60FDCE442D063DF0822 /* AnimableRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimableRefresh.framework; path = AnimableRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D902747501B60FDCE442D063DF0822 /* AnimableRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnimableRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		340680505E4AB80B4A3BF5F335EF3891 /* Pods-AnimableRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimableRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
 		36EFF183B20E962673105985ED60C82D /* UIScrollView+Refresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Refresh.swift"; path = "AnimableRefresh/Classes/UIScrollView+Refresh.swift"; sourceTree = "<group>"; };
@@ -58,16 +58,16 @@
 		5C0D5C06D9FB4A944991A7C756EC134D /* Pods-AnimableRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimableRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		61E1E0A09571AC8FCCA42B77079C4BBF /* Pods-AnimableRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimableRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6AE83859CF49191D5FE377FB7C0F1E63 /* Pods-AnimableRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimableRefresh_Tests.modulemap"; sourceTree = "<group>"; };
-		6C627135F42EE8CEC499CDA56B4F47A5 /* Pods_AnimableRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnimableRefresh_Example.framework; path = "Pods-AnimableRefresh_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D396BB71147D4D3E09980DA81429DDC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6C627135F42EE8CEC499CDA56B4F47A5 /* Pods_AnimableRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimableRefresh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D396BB71147D4D3E09980DA81429DDC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7EE2B0172DB6A175202DEEC1585E45C1 /* Pods-AnimableRefresh_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimableRefresh_Tests-Info.plist"; sourceTree = "<group>"; };
-		82471CE0CEF4464A7FA49E74A32C8096 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		82471CE0CEF4464A7FA49E74A32C8096 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		840FA5A0DBE1D208C566DFBB1348D948 /* SystemLoaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemLoaderView.swift; path = AnimableRefresh/Classes/SystemLoaderView.swift; sourceTree = "<group>"; };
 		99217966D4C878F5D3B4E95EE8C76EE7 /* RefreshView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RefreshView.swift; path = AnimableRefresh/Classes/RefreshView.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EA5675C0F479A1259D2FDC32027C464 /* RefreshState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RefreshState.swift; path = AnimableRefresh/Classes/RefreshState.swift; sourceTree = "<group>"; };
 		A9D054BCEB5DD596A4B0B2146BC82828 /* AnimableRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimableRefresh.xcconfig; sourceTree = "<group>"; };
-		AD82D7EAD248E1B68031C47FD8B97984 /* AnimableRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AnimableRefresh.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD82D7EAD248E1B68031C47FD8B97984 /* AnimableRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AnimableRefresh.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B2C04F0967BB7377A37355F0CA40F24C /* AnimableRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimableRefresh-dummy.m"; sourceTree = "<group>"; };
 		B32F7C60A0C351560073AFAC87D42A2C /* Pods-AnimableRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimableRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3A4AB4AF97E81065B161B9501D4D6C3 /* Pods-AnimableRefresh_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimableRefresh_Example-Info.plist"; sourceTree = "<group>"; };
@@ -330,7 +330,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1110;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -428,7 +428,6 @@
 			baseConfigurationReference = 12E0364F2619E6D599A06721DE9DCBDE /* Pods-AnimableRefresh_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -511,8 +510,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -522,7 +520,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9D054BCEB5DD596A4B0B2146BC82828 /* AnimableRefresh.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -556,7 +553,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9D054BCEB5DD596A4B0B2146BC82828 /* AnimableRefresh.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -590,7 +586,6 @@
 			baseConfigurationReference = B32F7C60A0C351560073AFAC87D42A2C /* Pods-AnimableRefresh_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -689,7 +684,6 @@
 			baseConfigurationReference = 61E1E0A09571AC8FCCA42B77079C4BBF /* Pods-AnimableRefresh_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -725,7 +719,6 @@
 			baseConfigurationReference = 340680505E4AB80B4A3BF5F335EF3891 /* Pods-AnimableRefresh_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
